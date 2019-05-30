@@ -24,7 +24,7 @@ Files for 3D print the BodyCase for assebled RaspberryPI3 + Dragino LoRa Hat + 5
 <li>Body -- <a href="./PRi3wScreen-Body.stl">.STL</a>, <a href="./PRi3wScreen-Body.zip">.OBJ(ZIP)</a></li>
 <li>Hat cover -- <a href="./PRi3wScreen-Hat2.stl">.STL</a>, <a href="PRi3wScreen-Hat2.zip">.OBJ(ZIP)</a></li></ol>
 
-<h2>How to asseble</h2><ol>
+<h2>How to assemble</h2><ol>
   <li>Put the Screen into printed Front Panel.</li>
   <li>Install printed Body part of case. Use any four small 2mm screws to fix the Body part at Front panel.</li>
   <li>Connect DSI interface to Display.</li>
