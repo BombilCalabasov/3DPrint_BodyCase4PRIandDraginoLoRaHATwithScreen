@@ -32,7 +32,7 @@ Files for 3D print the BodyCase for assebled RaspberryPI3 + Dragino LoRa Hat + 5
   <li>Install Raspberry into Body and fix it by brass cylinders from Dragino pack.</li>
   <li>Connect DSI interface to Raspberry.</li>
   <li>Install Dragino LoRa&GPS HAT at Raspberry and fix it by four screws.</li>
-  <li>Close the body of cadse by Hat Cover and fix it by others four small screw.</li></ol>
+  <li>Close the body of case by Hat Cover and fix it by others four small screw.</li></ol>
 <p>Now your accembled device is ready for tests.</p>
 <p>
 <img src="./IMAG1930.jpg">Assembled device</img></br></br>
