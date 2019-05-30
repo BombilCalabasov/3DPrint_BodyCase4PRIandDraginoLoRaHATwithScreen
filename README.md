@@ -1,19 +1,19 @@
 # 3DPrint_BodyCase4PRIandDraginoLoRaHATwithScreen
-Files for 3D print the BodyCase for assebled RaspberryPI3 + Dragino LoRa Hat + 5" 800x480 DSI Screen
+Files for 3D print the BodyCase for assembled RaspberryPI3 + Dragino LoRa Hat + 5" 800x480 DSI Screen
 
-<p>There is the project for 3D print the case for assebled device from next components:</p>
+<p>There is the project for 3D print the case for assembled device from next components:</p>
 <ol><li>Raspberry Pi2/3/3+</li>
 <li><a href="http://www.dragino.com/products/lora/item/106-lora-gps-hat.html">Dragino LoRa&GPS Hat for Raspberry Pi</a></li>
 <li><a href="https://www.aliexpress.com/item/32954192404.html?spm=a2g0s.8937460.0.0.66932e0eVrc0Jg">5 inch 800x480 TFT Touch Screen LCD Display with DSI Connector for Raspberry Pi</a></li></ol>
 
-<p>This assembled device is very useful for any tests of LoRa technology but so fragile and can be damaged very easy.</p>
+<p>This assembled device is very useful for any tests of LoRa technology but it's so fragile and can be damaged very easy.</p>
 <p>
 <img src="./IMAG1845.jpg"></img></br>
 <img src="./IMAG1844.jpg"></img></br>
 <img src="./IMAG1846.jpg"></img></br>
 </p>
-<h2>Modifying connector at Dragino board</h2>
-<p>First of all the Dragino board was modifyed to allow connect any additional HW (sensors and modules) to Raspberry GPIO connector without Body Case disassembling. The <a href="https://www.aliexpress.com/item/32898319378.html?spm=a2g0s.9042311.0.0.6f554c4du8pb8R">40-pins 'PC-140'-type connector</a> was used for replace original Dragino connector.</br>(N.B. Of course, you must have a good experience in soldering and proper tools to change the connector without damaging the board.)</p><p>
+<h2>Modifying GPIO Connector at Dragino board</h2>
+<p>First of all the Dragino board was modifyed to allow connect any additional HW (sensors and modules) to Raspberry GPIO connector without Body Case disassembling. The <a href="https://www.aliexpress.com/item/32898319378.html?spm=a2g0s.9042311.0.0.6f554c4du8pb8R">40-pins 'PC-104'-type connector</a> was used for replace original Dragino connector.</br>(N.B. Of course, you must have a good experience in soldering and proper tools to change the connector without damaging the board.)</p><p>
 <img src="./IMAG1928.jpg">Original Dragino Hat</img></br></br>
 <img src="./IMAG1929.jpg">Modifyed Dragino Hat</img></br></br>
 </p>
@@ -48,4 +48,5 @@ Files for 3D print the BodyCase for assebled RaspberryPI3 + Dragino LoRa Hat + 5
   <li>The Body Case has special small windows to look at the LEDs state - both on Dragino and Raspberry boards.</li>
 </ul>
 <h3>CONS</h3><ul>
-  <li>The changing the SD-card is very hard procedure with this Body Case because DSI cable covers SD-slot. To change SD-card you will be able to partially disassemble this device to grant the access to SD-card slot. Sorry, but I have no ideas how to solve this issue.</li></ul>
+  <li>The changing the SD-card is very hard procedure with this Body Case because DSI cable covers SD-slot. To change SD-card you will be able to partially disassemble this device to grant the access to SD-card slot. Sorry, but I have no ideas how to solve this issue.</li>
+  <li>Used 40pins 'PC-104' connector has the too long pins. They slightly protrude from the body cover. It's has a risk of short sircuit and damage the device. In my case it's not important because all tests are peroformed at my desktop. If this issue is important for you try to find another item with shorten pins.</li></ul>
